@@ -1,0 +1,12 @@
+body{margin-left:100px;}
+h1 { font-size:300%; color:green;font-family: verdana; font-style:italic; border: 1px solid grey; margin-bottom: 10px; }
+p, ul { font-size:110%; line-height:120%; font-family:courier; word-spacing:0.3em; color:violet; border: 12px solid orange;}
+tr {font-size:110%, line-height:120%; font-family:courier; word-spacing:0.3em; color:black; border: 12px solid orange}
+th {text-decoration:underline;}
+ul { background-color: pink; border:10px solid white;}
+ol {color:white;font-size:130%; background-color: grey; border: 13px solid green; margin: 50px;}
+a { color: black; font-size:110%; background-color: yellow;}
+fieldset {background-color:grey; font-family:courier; font-size:90% }
+legend {background-color: lightgray; color: white; padding: 5px 10px; font-family:arial;}
+label {background-color:grey; font-family:arial; font-size:100%; margin:5px;}
+td {font-family:arial; font-size;100%;}

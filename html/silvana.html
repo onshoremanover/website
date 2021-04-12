@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<title> Adressverwaltung</title>
+	<link rel="stylesheet" href="styleAdressverwaltung.css">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+</head>
+
+<body>
+<h1>Adressverwaltung</h1>
+
+<table border="4" frame="hsides" rules ="groups" cellspacing="10" cellpadding="20">
+    <thead>
+        <tr bgcolor="#FF7F00">
+          <th>Nachname</th>
+          <th>Vorname</th>
+		  <th>Abteilung</th>
+		  <th>PLZ und Ort</th>
+		  <th> Anschrift </th>
+		  <th> Mobil </th>
+		  <th> E-Mail </th>
+		  <th> Instagram </th>
+		  <th> Avatar </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <th>Müller</th>
+          <td><strong> <em>Jolanda </em> </strong></td>
+          <td>Turnen</td>
+		  <td>8610 <em>Uster</em></td>
+		  <td><a href="https://goo.gl/maps/BzPH8wKwX2DhJYs79" target="_blank"> Am Stadtpark 1</td>
+		  <td> +1 (0)236 456 789</td>
+		  <td> <a href="mailto:silvana.cucu@student.fh-hwz.ch"> E-Mail </a></td>
+		  <td> <a href="https://www.instagram.com/" target="_blank">Insta</a> </td>
+		  <td> <a href="mailto:silvana.cucu@studnet.fh-hwz.ch"</a> <img src="https://images.pexels.com/photos/2872767/pexels-photo-2872767.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=125"/></td>
+        </tr>
+	</tbody>
+	<tbody>
+        <tr>
+          <th>Meyer</th>
+          <td><strong>Janine </strong>  Jana</td>
+          <td>Fussball</td>
+		  <td> keine Angaben</td>
+		  <td> keine Angaben</td>
+		  <td> keine Angaben</td>
+		  <td> keine Angaben</td>
+		  <td> keine Angaben</td>
+		  <td> <img src="https://images.pexels.com/photos/1002778/pexels-photo-1002778.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=125"/></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+          <th>Walser</th>
+          <td>Beat</td>
+          <td>Skifahren</td>
+		  <td> keine Angaben</td>
+		  <td> keine Angaben</td>
+		  <td> keine Angaben</td>
+		  <td> keine Angaben</td>
+		  <td> keine Angaben</td>
+		  <td> <img src="https://images.pexels.com/photos/5679194/pexels-photo-5679194.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=125"/></td>
+        </tr>
+	</tbody>
+	<tfoot>
+        <tr>
+			
+			<td colspan="8"> 
+				<form action="mailto:silvana.cucu@student.fh-hwz.ch" method="post" enctype="text/plain" accept-charset="UTF-8">
+				<fieldset> 
+				<legend> Kontaktaufnahme</legend>
+				<p><label>Name:<input name="name" type="text" maxlength="60" placeholder="Nachname" required> </label></p>
+				<p><label> Vorname:<input name="vorname" type="text" maxlength="60" placeholder="Vorname"></label></p>
+				<p><label>E-Mail:<input name="email" type="email" maxlength="50" placeholder="example@beispiel.beispiel"></label></p> 
+				<p><label>Notiz:<textarea name="notiz" cols="100px" rows="20px" maxlength="500" placeholder="Platz für Ihre Nachricht"></textarea></label></p>
+				<input type="submit" value="Abschicken">
+				<input type="reset" value="Formular leeren">
+				</fieldset>
+			</td>
+		</tr>
+			<td colspan="8">Letzte Aktualisierung		
+					<p><label> Date<input name="datumzeit" type="datetime-local"></label></p>
+					<p><label> Benutzer<input name="uerID" type="text" value="admin" readonly></label></p>
+			
+			</td>
+			</form>
+				
+						
+        </tr>
+	</tfoot>
+   
+    
+</table>
+</body>
+</html>
