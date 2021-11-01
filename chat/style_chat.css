@@ -1,0 +1,358 @@
+* {
+    font-family: "Roboto", "Verdana", "Calibri", sans-serif;
+    line-height: 1.5;
+    background-color:white;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+ul {
+    margin-bottom: 0;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.speedcontrolcontainer {
+  max-width: 30em;
+  display: block;
+  border: 1px solid #000;
+  padding: 10px;
+  font-family: Sans-serif;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.speedcontrolcontainer audio {
+  width: 100%;
+  display: block;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.speedcontrolcontainer div {
+  display: flex;
+  padding: .5em 0;
+  gap: 5px;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.speedcontrolcontainer label {
+  flex: 1
+}
+.speedcontrolcontainer input[type="range"] {
+  flex: 5
+}
+.speedcontrolcontainer span {
+  flex: 1;
+  text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color:darkseagreen;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: cadetblue;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: cadetblue;
+  color: white;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.button{
+        display:inline-block;
+        margin:0 0.3em 0.3em 0;
+        border-radius:1.15em;
+        box-sizing: border-box;
+        text-decoration:none;
+        text-transform:uppercase;
+        font-weight:550;
+        background-color:cadetblue;
+        /*box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);*/
+        text-align:center;
+        position:relative;
+        background: cadetblue;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 2%;
+        box-shadow: 4px 3px 1px #666666;
+        text-shadow: 1px 2px 1px #666666;
+        margin-bottom: 35px;
+        font-family: Verdana;
+}
+a.button:active{
+        top:0.1em;
+}
+    @media all and (max-width:30em){
+        a.button{
+                display:block;
+                margin:0.4em auto;
+        }
+}
+
+h1, h2 {
+    background: cadetblue;
+    /*background: rgba(148, 185, 118, 0.867);*/
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1%;
+    box-shadow: 8px 7px 5px #666666;
+    text-shadow: 1px 3px 1px #666666;
+    /*border-radius: 5px/100%;*/
+    margin-bottom: 35px;
+    font-family: Verdana;
+}
+
+.padding-lr20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+/*
+table, th, td {
+    width: 100%;
+    border: 2px solid cadetblue;
+    border-collapse: collapse;
+}
+
+table {
+    border-spacing: 5px;
+    border-collapse: separate;
+    padding: 5px;
+    text-align: center;
+    background: linear-gradient(#ffe3a6, #ffb44b);
+    box-shadow: 2px 2px 5px #666666;
+    margin: 5% auto;
+}
+*/
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+ td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: cadetblue;
+  color: white;
+}
+
+li {
+    box-shadow: 2px 2px 5px #666666;
+    margin-top: 15px;
+    padding: 2%;
+    font-size: large;
+    background: #eeeeee;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=password] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+textarea {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    color:white;
+    padding:10px 25px; 
+    background:darkseagreen; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+/*
+@media (min-width: 576px) {
+    .tabellenbehaelter {
+        display: flex;
+        justify-content: space-around;
+        height: 70mm;
+        overflow: auto;
+    }
+
+    table {
+        width: 100%;
+        margin: 0;
+    }
+
+    img {
+        float: right;
+        padding: 1%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hauptbehaelter {
+        background: white;
+        width: 50%;
+        margin: 0px auto;
+        padding: 1.5% 1%;
+        box-shadow: 2px 2px 5px #666666;
+    }
+
+    body {
+        background: lightblue fixed;
+        margin: 0;
+    }
+
+    li {
+        background: #eeeeee url("bilder/pokeball.png");
+        background-size: 3%;
+        background-repeat: no-repeat;
+        background-position: 1.5% center;
+        padding-left: 6%;
+    }
+}
+*/
+
+.box_self {
+  width: 300px;
+  margin: 50px auto;
+  background: cadetblue;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: arial;
+  position: relative;
+}
+
+.box_other {
+  width: 300px;
+  margin: 50px auto;
+  background: darkseagreen;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: arial;
+  position: relative;
+}
+
+.sb1:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid cadetblue;
+  border-right: 10px solid transparent;
+  border-top: 10px solid cadetblue;
+  border-bottom: 10px solid transparent;
+  right: -19px;
+  top: 6px;
+}
+
+.sb2:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid darkseagreen;
+  border-top: 10px solid darkseagreen;
+  border-bottom: 10px solid transparent;
+  left: -19px;
+  top: 6px;
+}
+/*
+.sb3:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #00bfb6;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #00bfb6;
+  border-bottom: 10px solid transparent;
+  left: 19px;
+  bottom: -19px;
+}
+
+.sb4:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #00bfb6;
+  border-top: 10px solid #00bfb6;
+  border-bottom: 10px solid transparent;
+  right: 19px;
+  bottom: -19px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
