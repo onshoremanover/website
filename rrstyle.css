@@ -1,0 +1,134 @@
+* {
+    font-family: "Roboto", "Verdana", "Calibri", sans-serif;
+    line-height: 1.5;
+    background-color:white;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+ul {
+    margin-bottom: 0;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color:CornflowerBlue;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: CornflowerBlue;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+h1, h2 {
+    background: rgba(148, 185, 118, 0.867);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1%;
+    box-shadow: 8px 7px 5px #666666;
+    text-shadow: 1px 2px 1px #666666;
+    border-radius: 5px/100%;
+    margin-bottom: 35px;
+    font-family: Verdana;
+}
+
+.padding-lr20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+table, th, td {
+    border: 2px solid #997711;
+    border-collapse: collapse;
+}
+
+table {
+    width: 95%;
+    text-align: center;
+    background: linear-gradient(#ffe3a6, #ffb44b);
+    box-shadow: 2px 2px 5px #666666;
+    margin: 5% auto;
+}
+
+li {
+    box-shadow: 2px 2px 5px #666666;
+    margin-top: 15px;
+    padding: 2%;
+    font-size: large;
+    background: #eeeeee;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+@media (min-width: 576px) {
+    .tabellenbehaelter {
+        display: flex;
+        justify-content: space-around;
+        height: 70mm;
+        overflow: auto;
+    }
+
+    table {
+        width: 45%;
+        margin: 0;
+    }
+
+    img {
+        float: right;
+        padding: 1%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hauptbehaelter {
+        background: white;
+        width: 50%;
+        margin: 0px auto;
+        padding: 1.5% 1%;
+        box-shadow: 2px 2px 5px #666666;
+    }
+
+    body {
+        background: lightblue fixed;
+        margin: 0;
+    }
+
+    li {
+        background: #eeeeee url("bilder/pokeball.png");
+        background-size: 3%;
+        background-repeat: no-repeat;
+        background-position: 1.5% center;
+        padding-left: 6%;
+    }
+}
